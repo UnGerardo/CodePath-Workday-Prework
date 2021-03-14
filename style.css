@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Arial', 'Times New Roman', sans-serif;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 85);
+    color: #f3f3f3;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    margin: 6rem 4rem;
+}
+
+#title {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+#play-btn {
+    padding: 1rem;
+    border-radius: 15%;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    -o-border-radius: 15%;
+}
+
+#btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+}
+
+.btn {
+    margin: 0.5rem;
+    height: 25rem;
+    width: 25rem;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+#green {
+    background-color: green;
+}
+#blue {
+    background-color: blue;
+}
+#red {
+    background-color: red;
+}
+#yellow {
+    background-color: yellow;
+}
+
+#timer {
+    background-color: black;
+    max-width: max-content;
+    height: max-content;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+  color: #373fff;
+}
